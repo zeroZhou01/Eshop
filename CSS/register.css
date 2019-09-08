@@ -1,0 +1,136 @@
+﻿html {
+    height: 100%;
+}
+
+body {
+    margin: auto;
+}
+
+#page {
+    margin: auto;
+}
+#content {
+    border-color: darkgreen;
+    border-style: solid;
+    -webkit-transition: all 2s;
+    margin: auto;
+    width: 1500px;
+    height: 580px;
+    border-color: darkgreen;
+    background-image: url(../image/04.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: frams 15s infinite;
+}
+
+@keyframes frams {
+    25% {
+        transition: all 1s;
+        background-image: url("../image/07.jpg");
+        background-size: 100% 100%;
+        background-repeat: no-repeat
+    }
+
+    50% {
+        background-image: url("../image/04.jpg");
+        background-size: 100% 100%;
+        background-repeat: no-repeat
+    }
+
+    75% {
+        background-image: url("../image/01.jpg");
+        background-size: 100% 100%;
+        background-repeat: no-repeat
+    }
+
+    100% {
+        background-image: url("../image/02.jpg");
+        background-size: 100% 100%;
+        background-repeat: no-repeat
+    }
+}
+
+#content_right {
+    height: 520px;
+    width: 350px;
+    background-color: white;
+    border-color: darkgreen;
+    border-style: solid;
+    float: right;
+    margin-right: 150px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+    #content_right p {
+        color: darkgreen;
+        font-size: 25px;
+    }
+
+#header {
+    height: 120px;
+    background-color: white;
+    margin-top: -10px;
+}
+
+#footer {
+    height: 150px;
+    background-color: white;
+    text-align: center;
+}
+
+#logo {
+    font-size: 60px;
+    color: darkgreen;
+    margin-top: -10px;
+}
+
+#tb_login {
+    margin-top: 30px;
+    margin-left: 40px;
+    font-size: 20px;
+}
+
+.td_right {
+    padding-left: 0px;
+    width: 200px;
+}
+
+.td_left {
+    width: 200px;
+    text-align: left;
+    font-size:17px;
+}
+a {
+    color: darkgreen;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.txt {
+    border-radius: 6px;
+    border-style: solid;
+    border-color: darkgreen;
+    width: 200px;
+    height: 22px;
+}
+
+    .txt:hover, .txt:active {
+        box-shadow: 0px 0px 7px darkgreen;
+    }
+
+
+#bt_register {
+    font-size: 15px;
+    border-radius: 10px;
+    width: 80px;
+    height: 30px;
+    border-style: solid;
+    background-color:darkgreen;
+    border-color: darkgreen;
+
+}
+
+    #bt_register:hover, #bt_register:active {
+        box-shadow: 3px 3px 10px darkgreen;
+    }
